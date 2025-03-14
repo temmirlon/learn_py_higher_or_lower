@@ -20,7 +20,7 @@ def high_or_low():
         print(vs)
         print(f"Compare B: {second_card['name']}, a {second_card['description']}, from {second_card['country']}.")
 
-        answer = input("Who has more followers? Type 'A' or 'B': ")
+        answer = input("Who has more followers? Type 'A' or 'B': ").lower()
 
         if answer == 'A' and first_card['follower_count'] > second_card['follower_count']:
             score += 1
