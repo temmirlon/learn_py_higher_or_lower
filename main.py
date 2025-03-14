@@ -22,10 +22,10 @@ def high_or_low():
 
         answer = input("Who has more followers? Type 'A' or 'B': ").lower()
 
-        if answer == 'A' and first_card['follower_count'] > second_card['follower_count']:
+        if answer == 'a' and first_card['follower_count'] > second_card['follower_count']:
             score += 1
 
-        elif answer == 'B' and first_card['follower_count'] < second_card['follower_count']:
+        elif answer == 'b' and first_card['follower_count'] < second_card['follower_count']:
             score +=1
             first_card = second_card
 
